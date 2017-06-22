@@ -2,7 +2,7 @@ function FSAddOriginalLink(){
     var body_element = document.getElementsByTagName('body')[0];
     var selection;
     selection = window.getSelection();
-    var pagelink = "<br/><br/>MUON COPY THI VAO DAY : <a href='http://faceseo.vn'>http://faceseo.vn"+document.location.pathname+"</a>";
+    var pagelink = "<br/><br/>Muốn Coppy Thì Liên Hệ : 090.977.2193 : <a href='http://botgaolutnguyenchat.blogspot.com/'>http://botgaolutnguyenchat.blogspot.com/"+document.location.pathname+"</a>";
     var copytext = pagelink;
     var newdiv = document.createElement('div');
     newdiv.style.position='absolute';
@@ -14,4 +14,4 @@ function FSAddOriginalLink(){
         body_element.removeChild(newdiv);
     },0);
 }
-document.oncopy = FSAddOriginalLink;
+
