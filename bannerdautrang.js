@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='https://goo.gl/pMgpK4' target='_blank'><img src='http://botgaoluthcm.net/wp-content/uploads/2017/04/BOT-GAO-LUT-BANNER_v2-1024x614.jpg' width='500px'/><br/>Bán Bột gạo lứt giảm cân</a>.LH : 090.977.2193. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='https://goo.gl/pMgpK4' target='_blank'><img src='https://2.bp.blogspot.com/-Sv1dKExwvzM/WWracknhBCI/AAAAAAAAAFM/Y6OcnJ_j1-wS7C2St4WHf42qChjUwtXPQCLcBGAs/s320/z666383280753_09ced5569c62f1cc59af555cd22e49c6.jpg' width='500px'/><br/>Bán Bột gạo lứt giảm cân</a>.LH : 090.977.2193. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
